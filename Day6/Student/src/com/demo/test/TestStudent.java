@@ -12,15 +12,15 @@ import com.demo.exception.LowAttendanceException;
 public class TestStudent {
 	public static void main(String[] args) {
         List<Student> students = new ArrayList<>();
-        students.add(new Student(1, "Amit", "Java", 80, 90));
-        students.add(new Student(2, "Poonam", "Python", 75, 85));
-        students.add(new Student(3, "Raj", "C++", 55, 88));   
-        students.add(new Student(4, "Neha", "Java", 92, 95));
+        students.add(new Student(1, "Sakshi", "Java", 80, 90));
+        students.add(new Student(2, "Prajakta", "Python", 75, 85));
+        students.add(new Student(3, "Raju", "C++", 55, 88));   
+        students.add(new Student(4, "Abhi", "Java", 92, 95));
         students.add(new Student(5, "Karan", "Python", 63, 60));
         students.add(new Student(6, "Simran", "ML", 70, 78));
-        students.add(new Student(7, "Ravi", "Java", 59, 50)); 
-        students.add(new Student(8, "Priya", "AI", 85, 67));
-        students.add(new Student(9, "Asha", "C", 90, 55));
+        students.add(new Student(7, "Raviraj", "Java", 59, 50)); 
+        students.add(new Student(8, "Priyanka", "AI", 85, 67));
+        students.add(new Student(9, "Ashaji", "C", 90, 55));
         students.add(new Student(10, "Nikhil", "DSA", 65, 72));
         for (Student s : students) {
             try {
